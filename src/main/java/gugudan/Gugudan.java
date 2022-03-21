@@ -78,5 +78,20 @@ public class Gugudan {
             System.out.println(7 * j);
         }
 
+        // 8단
+        System.out.println("출력할 단은?: ");
+        Scanner scanner1 = new Scanner(System.in);
+        int number1 = scanner1.nextInt();
+        System.out.println("사용자가 입력한 값: " + number1);
+
+        if (number1 < 2) {
+            System.out.println("1보다 큰 값을 입력하세요.");
+        } else if (number1 > 9) {
+            System.out.println("9보다 작은값을 입력하세요");
+        } else {
+            for(int k = 1; k < 10; k++) {
+                System.out.println(number1 * k);
+            }
+        }
     }
 }
