@@ -93,5 +93,14 @@ public class Gugudan {
                 System.out.println(number1 * k);
             }
         }
+
+        // 9단
+        int[] results = new int[9];
+        for(int l=0; l < results.length; l++) {
+            results[l] = 9 * (l + 1);
+        }
+        for(i=0; i < results.length; i++) {
+            System.out.println(results[i]);
+        }
     }
 }
